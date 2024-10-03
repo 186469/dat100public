@@ -1,0 +1,24 @@
+
+public class main18methoddel2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// method = en blokk med kode som blir utført hver gang den blir kalt
+
+		// Heltallsvariabler
+		int x = 3;
+		int y = 4;
+		
+		//medoden kalles "add" og bruker x og y som argumenter og returnerer summen av de
+		System.out.println(add(x, y));
+		
+	}
+	static int add(int x, int y) {
+		
+		return x + y;
+		
+				
+	}
+	
+}

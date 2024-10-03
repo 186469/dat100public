@@ -1,0 +1,11 @@
+
+public class rep {
+
+	public static void main(String[] args) {
+		
+		String a = showInputDialog("Sett inn et heltall");
+		String b = showInputDialog("Sett inn et nytt heltall");
+		
+	}
+
+}

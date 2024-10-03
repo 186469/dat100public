@@ -1,0 +1,17 @@
+
+public class main22Constructor {
+
+	public static void main(String[] args) {
+		
+		// Constructor = Spesiell metode som kalles når et objekt blir instansiert (opprettet)
+		Human22 human = new Human22("Rick", 65, 70);
+		Human22 human2 = new Human22("Morty", 16, 50);
+		Human22 human3 = new Human22("Elias", 22, 76);
+		
+		human3.shiting();
+		human2.eat();
+		human.drink();
+		
+	}
+
+}

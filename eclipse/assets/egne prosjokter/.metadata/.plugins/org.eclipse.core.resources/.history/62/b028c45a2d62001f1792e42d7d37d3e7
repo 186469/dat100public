@@ -1,0 +1,18 @@
+
+public class main18methods {
+
+	public static void main(String[] args) {
+		
+		// method = en blokk med kode som blir utført hver gang den blir kalt
+		
+		String name = "Elias";
+		hello(name);
+		
+		
+	}
+
+	static void hello(String name) {
+		System.out.println("hello "+name);
+	}
+	
+}

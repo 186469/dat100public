@@ -1,0 +1,30 @@
+
+public class mainwrapperclasses16 {
+
+	public static void main(String[] args) {
+		
+		// wrapper class = gir en måte å bruke promitive datatyper som
+		//referansedatatyper. Referansedatatyper inneholder nyttige metoder
+		//som kan brukes med samlinger (eks: Arraylist)
+		
+		// primitive	//wrapper
+		//boolean		Boolean
+		//char			Character
+		//int			Integer
+		//double		Double
+		
+		//wrapper//primitive verdier//abcde er data typer
+		Boolean a = true;
+		Character b = '@';
+		Integer c = 123;
+		Double d = 3.14;
+		String e = "Elias";
+		
+		if(b=='@') {
+			System.out.println("Dette er true");
+			
+		}
+
+	}
+
+}

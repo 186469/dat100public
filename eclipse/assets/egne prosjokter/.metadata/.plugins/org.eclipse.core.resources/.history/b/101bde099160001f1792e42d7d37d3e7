@@ -1,0 +1,24 @@
+
+public class main11logicalOperators {
+
+	public static void main(String[] args) {
+
+	//Logical operators
+	//Logiske operatorer = brukes til å koble sammen to eller flere uttrykk
+	// && = (og) begge betingelsene må være sanne
+	// || = (eller) en av betingelsene må være sann
+	// ! = (ikke) reverserer den boolean verdien av betingelsen
+		
+		int temp = 25;
+		if(temp>30) {
+			System.out.println("Det er dritt varmt ute");
+		}
+		else if(temp>=20 && temp <=30) {	//Begge påstandene må være sann
+			System.out.println("Det er varmt ute");
+		}
+		else {
+			System.out.println("Det er kaldt ute");
+		}
+	}
+
+}

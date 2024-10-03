@@ -1,0 +1,29 @@
+import easygraphics.*;
+
+public class tyskflagg extends EasyGraphics {
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void run() {
+        makeWindow("Det tyske flagget", 400, 300);  // Oppretter et vindu med størrelse 400x300 piksler
+
+        // Tegn den sorte stripen øverst
+        setColor(0, 0, 0);  // Sort farge
+        fillRectangle(50, 50, 300, 67);
+
+        // Tegn den røde stripen i midten
+        setColor(255, 0, 0);  // Rød farge
+        fillRectangle(50, 117, 300, 67);
+
+        // Tegn den gule stripen nederst
+        setColor(255, 204, 0);  // Gul farge
+        fillRectangle(50, 184, 300, 67);
+
+        // Tegn en ramme rundt flagget (valgfritt)
+        setColor(0, 0, 0);  // Sort farge for rammen
+        drawRectangle(50, 50, 300, 200);
+    }
+}

@@ -1,0 +1,27 @@
+
+import java.util.Random;
+
+public class main23TerningsKaster {
+
+    // Konstruktør
+    main23TerningsKaster() {
+        Random random = new Random();
+        roll(random);  // Fjern `number` som parameter
+    }
+
+    // Endre roll-metoden til ikke å ta `number` som parameter
+    void roll(Random random) {
+        int number = random.nextInt(6) + 1;
+        System.out.println(number);
+    }
+}
+
+public class main23LocalGlobal {
+
+    public static void main(String[] args) {
+
+        // Lager en instans av main23TerningsKaster
+        main23TerningsKaster terningsKaster = new main23TerningsKaster();
+
+    }
+}

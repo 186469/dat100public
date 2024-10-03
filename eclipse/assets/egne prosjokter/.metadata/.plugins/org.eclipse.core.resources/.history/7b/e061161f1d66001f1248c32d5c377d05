@@ -1,0 +1,32 @@
+
+import static javax.swing.JOptionPane.*;
+
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		String brukernavn = showInputDialog("Skriv inn brukernavn");
+		String bbrukernavn = showInputDialog("Bekreft brukernavn");
+		
+		String passord = showInputDialog("Skriv inn passord");
+		String ppassord = showInputDialog("Bekreft passord");
+		
+		if (bbrukernavn.equals(brukernavn) && ppassord.equals(passord)) {
+			showMessageDialog(null, "Du skrev inn riktig brukernavn og passord");
+		}
+			else {
+				showMessageDialog(null, "Du skrev feil brukernavn eller passord");
+			}
+		System.out.println(brukernavn);
+		System.out.println(passord);
+		
+		}
+		
+		}
+
+	
+		
+	
+
+

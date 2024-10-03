@@ -1,0 +1,34 @@
+import java.util.Scanner;
+import java.util.scanner;
+
+
+public class rep1 {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner (System.in);
+		
+		System.out.println("Skriv inn det første tallet");
+		int tall1 = scanner.nextInt();
+		
+		System.out.println("Skriv inn det andre tallet");
+		int tall2 = scanner.nextInt();
+		
+		System.out.println("Skriv inn det tredje tallet");
+		int tall3 = scanner.nextInt();
+		
+		System.out.println("Skriv inn det fjerde tallet");
+		int tall4 = scanner.nextInt();
+		
+		int minst1 = Math.min(tall1, tall2);
+		int minst2 = Math.min(tall3, tall4);
+		
+		int minstAvAlle = Math.min(minst1, minst2);
+		
+		System.out.println("Minste tallet er "+minstAvAlle);
+	}
+
+	
+
+	
+}

@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class main17foreach {
+
+	public static void main(String[] args) {
+		
+		// for-each = gjennomgangsteknikk for å iterere gjennom elementene i et
+		// array/samling færre trinn. Mer lesbar. Mindre fleksibel
+
+		//String[] dyr = {"katt", "hund", "rotte", "fugl"};
+		ArrayList<String> dyr = new ArrayList<String>();
+		
+		dyr.add("katt");
+		dyr.add("rotte");
+		dyr.add("fugl");
+		dyr.add("hund");
+		
+		
+		for(String i : dyr) {
+			System.out.println(i);
+		}
+	}
+
+}

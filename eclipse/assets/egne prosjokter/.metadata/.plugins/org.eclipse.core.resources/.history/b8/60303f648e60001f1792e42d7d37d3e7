@@ -1,0 +1,35 @@
+
+public class main10switches {
+	//bedre å bruke "switch" enn "if" hvis det er mange variabler
+
+	public static void main(String[] args) {
+
+		//Switch = et uttrykk som gjør det mulig å teste om 
+		//en variabel er lik en liste med verdier
+		
+		String day = "Søndag";
+		//Fredag er variablen
+		
+		switch(day) {
+			case "Søndag": System.out.println("Det er Søndag");
+			break; 
+			case "Mandag": System.out.println("Det er Mandag");
+			break;
+			case "Tirsdag": System.out.println("Det er Tirsdag");
+			break;
+			case "Onsdag": System.out.println("Det er Onsdag");
+			break;
+			case "Torsdag": System.out.println("Det er Torsdag");
+			break;
+			case "Fredag": System.out.println("Det er Fredag");
+			break;
+			case "Lørdag": System.out.println("Det er Lørdag");
+			break;
+			//brake; ender variablen, uten den ville den vist alle
+			//derfor viktig å ha med
+			default: System.out.println("Det er ikke en dag");
+			//hvis jeg skriver et rand om ord hvis default setningen komme opp
+		}
+	}
+
+}

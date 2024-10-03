@@ -1,0 +1,23 @@
+
+public class main18methoddel2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// method = en blokk med kode som blir utført hver gang den blir kalt
+
+		int x = 3;
+		int y = 4;
+		
+		add(x,y);
+		
+	}
+	static int add(int x, int y) {
+		
+		int z = x + y;
+		return 0;
+		
+				
+	}
+	
+}

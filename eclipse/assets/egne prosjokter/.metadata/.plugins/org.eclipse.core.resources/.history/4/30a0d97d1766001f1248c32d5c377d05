@@ -1,0 +1,17 @@
+
+public class bil {
+
+	String make = "Cheverolet";
+	String model = "Corvette";
+	int year = 2020;
+	String color = "blue";
+	double price = 50000.00;
+	
+	void drive() {
+		System.out.println("Du kjører bilen");	
+	}
+	void brake() {
+		System.out.println("Du trokket på bremsen");
+	}
+	
+}

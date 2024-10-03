@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class main17arraylist {
+
+	public static void main(String[] args) {
+		
+		// Array list = et skalerbart array.
+		// Elementer kan legges til og fjernes etter kompilasjonsfasen lagrer referansedatatyper
+		
+		//Opretter array list som kan lagre "string-elementer"
+		ArrayList<String> food = new ArrayList<String>();
+		
+		//Elementer i listen
+		food.add("pizza");
+		food.add("pølse");
+		food.add("hamburger");
+		
+		food.set(0, "sushi");	//bytter pizza(0) med sushi
+		
+		
+		for(int i = 0; i<food.size();) {
+			System.out.println(food.get(i));
+			
+		}
+		
+
+	}
+
+}

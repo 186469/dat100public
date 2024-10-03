@@ -1,0 +1,13 @@
+import java.util.Random;
+
+public class main8verdier {
+
+	public static void main(String[] args) {
+
+		Random random = new Random();
+		
+		byte x = random.nextBytes();
+		System.out.println(x);
+	}
+
+}

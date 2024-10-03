@@ -1,0 +1,45 @@
+
+public class main20Printf {
+
+	public static void main(String[] args) {
+		
+		 // printf = en valgfri metode for å kontrollere, formater og vise tekst i konsollvinduet
+		 // to argumenter = formatstreng + (objekt/variabel/verdi)
+		 // % [flags] [precision] [width] [Conversion-character]
+		
+//printf er en metode som kan brikes til å vise tekst på en kontrollert og formatert måte i konsollvinduet
+// ved hjelp av en formatstreng som angir hvordan data skal vises		
+		// to argumenter	//formatstreng			//variabel
+		//System.out.printf("Dette er en format string %d",123);
+		
+		boolean myBoolean = true;
+		char myChar = '@';
+		String myString = "elias";
+		int myInt = 50;
+		double myDouble = 1000;
+		
+		// [conversion-characters]
+		//System.out.printf("%b", myBoolean);
+		//System.out.printf("%c", myChar);
+		//System.out.printf("%d", myInt);
+		//System.out.printf("%s", myString);
+		//System.out.printf("%f", myDouble);
+		
+		//width
+		//Det minst antallet tegn som skal vises i utdataene når du bruker 'printf' metoden
+		System.out.printf("Hello %10s", myString);
+		
+		// [precision}
+		//Presisjon bestemmer hvor mange desimaer som skal vises når du skriver ut desimaltall ved bruk av printf
+		//System.out.printf("Du har så mye penger %.2f", myDouble);	//%.2 (kun 2 desimaler)
+		
+		// [flags]
+		//Flagget som legges til i formatstrengen i printf-metoden, kan endre hvordan utdataene vises,
+		//ved å legge til spesielle effekter som feks fortegn, utfylling med nuller, eller justering av teksten.
+		// du kan bruke "-" "+" "0"(masse 0er) ","(skriver , i tallet
+		//System.out.printf("Du har så mye penger %,f", myDouble);
+	}
+	
+	
+
+}

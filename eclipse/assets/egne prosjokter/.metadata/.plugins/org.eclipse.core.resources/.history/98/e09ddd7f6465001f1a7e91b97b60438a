@@ -1,0 +1,25 @@
+
+public class main7math {
+
+	public static void main(String[] args) {
+		
+		double x = 3.14;
+		double y = -10;
+		
+		//Math.max finner den høyeste verdien som er x i dette tilfelle
+		//Math.min finner den minste verdien
+		//Math.sqrt finner kvadratroten
+		//Math.abs finner absoluttverdien
+		//Math.round runder tallet til næreste 0
+		//Math.celi runder alltid opp
+		//Math.floor runder alltid ned
+		//double z = Math.floor(x);  //double gjør at svaret vil gi desimaler
+		double y = Math.abs(y);
+		System.out.println(y);
+		
+		
+		
+	}
+	
+	
+}

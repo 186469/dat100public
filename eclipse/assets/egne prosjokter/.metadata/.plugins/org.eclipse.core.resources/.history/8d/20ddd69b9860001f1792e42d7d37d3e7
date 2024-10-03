@@ -1,0 +1,14 @@
+
+public class main13for {
+
+	public static void main(String[] args) {
+
+		// for loop = utfører en blokk med kode et begrensett antall ganger
+		
+		for(int i = 0; i <=10; i ++) {
+			System.out.println(i);
+		}
+
+	}
+
+}

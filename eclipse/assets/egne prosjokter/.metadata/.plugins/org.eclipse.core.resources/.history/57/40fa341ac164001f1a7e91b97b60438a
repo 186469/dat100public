@@ -1,0 +1,36 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class tyskflagg extends JPanel {
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        // Set dimensions for the flag
+        int width = getWidth();
+        int height = getHeight();
+        int stripeHeight = height / 3;
+
+        // Draw the black stripe
+        g.setColor(Color.BLACK);
+        g.fillRect(0, 0, width, stripeHeight);
+
+        // Draw the red stripe
+        g.setColor(Color.RED);
+        g.fillRect(0, stripeHeight, width, stripeHeight);
+
+        // Draw the yellow stripe
+        g.setColor(Color.YELLOW);
+        g.fillRect(0, 2 * stripeHeight, width, stripeHeight);
+    }
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Det tyske flagget");
+        tyskflagg flag = new tyskflagg();
+        frame.add(flag);
+        frame.setSize(400, 300);  // Set the window size
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}

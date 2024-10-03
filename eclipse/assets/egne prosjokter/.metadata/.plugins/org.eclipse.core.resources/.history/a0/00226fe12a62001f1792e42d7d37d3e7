@@ -1,0 +1,16 @@
+
+public class main17foreach {
+
+	public static void main(String[] args) {
+		
+		// for-each = gjennomgangsteknikk for å iterere gjennom elementene i et
+		// array/samling færre trinn. Mer lesbar. Mindre fleksibel
+
+		String[] dyr = {"katt", "hund", "rotte", "fugl"};
+		
+		for(String i : dyr) {
+			System.out.println(i);
+		}
+	}
+
+}

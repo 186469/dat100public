@@ -1,0 +1,21 @@
+
+public class sting2PO15 {
+
+	public static void main(String[] args) {
+
+			// String = en refereanedatatype som kan lagre ett eller
+			//flere tegn referansedatatyper har tilgang ti nyttige metoder
+		
+		String name = "Elias";
+		
+		//boolean result = name.equalsIgnoreCase("elias");	//IgnoreCase gjør at du ikke trenger stor bokstav
+		//int result = name.length();		//length gir svar på hvor mange bokstaver navnet har
+		char result = name.charAt(0);
+		
+		System.out.println(result);
+		 
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+import javax.swing.JOptionPane;
+public class rep {
+
+
+	public static void main(String[] args) {
+		
+		String a = JOptionPane.showInputDialog("Sett inn et heltall");
+		int A = Integer.parseInt(a);
+		String b = JOptionPane.showInputDialog("Sett inn et nytt heltall");
+		int B = Integer.parseInt(b);
+		
+		
+	}
+
+
+
+}

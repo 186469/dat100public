@@ -1,0 +1,32 @@
+import easygraphics.*;
+
+public class rep extends EasyGraphics {
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void run() {
+        makeWindow("Hus", 400, 300);
+
+        int x = 50;   // Startposisjon for første huset
+        int y = 150;  // Y-posisjonen for alle husene
+        int houseWidth = 50;
+        int houseHeight = 50;
+        int roofHeight = 30;
+
+        // Tegn fem hus
+        for (int i = 0; i < 5; i++) {
+            // Tegn firkanten (huset)
+            drawRectangle(x, y, houseWidth, houseHeight);
+
+            // Tegn taket (to linjer som danner en trekant)
+            drawLine(x, y, x + houseWidth / 2, y - roofHeight);  // Venstre del av taket
+            drawLine(x + houseWidth, y, x + houseWidth / 2, y - roofHeight);  // Høyre del av taket
+
+            // Flytt x for å tegne neste hus
+            x += houseWidth + 20;  // Legg til mellomrom mellom husene
+        }
+    }
+}

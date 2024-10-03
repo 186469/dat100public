@@ -1,0 +1,19 @@
+
+public class main7math {
+
+	public static void main(String[] args) {
+		
+		double x = 3.14;
+		double y = -10;
+		
+		//Math.max finner den høyeste verdien som er x i dette tilfelle
+		//Math.min finner den minste verdien
+		//Math.sqrt finner kvadratroten
+		//Math.abs finner absoluttverdien
+		double z = Math.sqrt(x); 
+		System.out.println(z);
+		
+	}
+	
+	
+}

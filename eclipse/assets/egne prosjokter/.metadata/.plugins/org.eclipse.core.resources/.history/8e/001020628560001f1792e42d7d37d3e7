@@ -1,0 +1,22 @@
+import javax.swing.JOptionPane;
+
+//GUI (Graphical User Interface)
+
+public class main6 {
+
+	public static void main(String[] args) {
+		
+		//Skaper en boks hvor du kan skrive inn navnet ditt.
+		String name = JOptionPane.showInputDialog("Skriv navnet ditt");
+		JOptionPane.showMessageDialog(null,"Hei "+name);
+		
+		int age = Integer.parseInt(JOptionPane.showInputDialog("Skriv alderen din"));
+		JOptionPane.showMessageDialog(null,"Du er "+age+" år gammel "+name);
+		
+		double height = Double.parseDouble(JOptionPane.showInputDialog("Skriv høyden din "));
+		JOptionPane.showMessageDialog(null,"Du er "+height+ " cm høy"+name);
+		
+
+	}
+
+}

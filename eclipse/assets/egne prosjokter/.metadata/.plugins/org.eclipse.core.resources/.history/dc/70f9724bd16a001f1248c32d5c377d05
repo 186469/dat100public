@@ -1,0 +1,19 @@
+
+public class main23OverloadedConstructors {
+
+	public static void main(String[] args) {
+		
+		// Overloaded Constructors = Flere konstruktører i en klasse med samme navn,
+		// men som har forskjellige parametere
+		// navn + parametere = signatur
+		
+		Pizza23 pizza = new Pizza23("Thicc crust","tomato", "motzzerella","pepperoni");
+		
+		System.out.println("Here are the ingredients of the pizza: ");
+		System.out.println(pizza.bread);
+		System.out.println(pizza.sauce);
+		System.out.println(pizza.cheese);
+		System.out.println(pizza.topping);
+	}
+
+}

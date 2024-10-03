@@ -1,0 +1,19 @@
+
+public class rep {
+
+
+	public static void main(String[] args) {
+		
+	int a = Math.min(4, 3);
+	int b = Math.min(7, 10);
+	int c = Math.min(6, 11);
+	int d = Math.min(2, 17);
+	System.out.print(a);
+	System.out.print(b);
+	System.out.print(c);
+	System.out.print(d);
+	
+	
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class mainOOP21 {
+
+	public static void main(String[] args) {
+		
+		// object = en instans av en klasse som kan inneholde attributter og metoder
+		// eks: (tlf, skrivebord, datamaskin, kaffekopp)
+		
+		bil minBil = new bil();
+		
+		System.out.println(minBil.make);
+		System.out.println(minBil.model);
+		minBil.drive();
+	}
+
+}

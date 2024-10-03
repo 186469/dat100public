@@ -1,0 +1,21 @@
+import java.util.Random;
+//Random klassen for å genererer random tall eller påstander
+
+public class main8verdier {
+
+	public static void main(String[] args) {
+
+		Random random = new Random();
+		
+		int x = random.nextInt(6);				//random tall mellom 1-6
+		//double y = random.nextDouble();		//random desimaltall
+		//boolean z = random.nextBoolean();		//random mellom true or false	
+		
+		System.out.println(x);
+		
+		random.nextInt(x);
+		
+	}
+	
+
+}

@@ -1,0 +1,22 @@
+
+public class main20Printf {
+
+	public static void main(String[] args) {
+		
+		 // printf = en valgfri metode for å kontrollere, formater og vise tekst i konsollvinduet
+		 // to argumenter = formatstreng + (objekt/variabel/verdi)
+		 // % [flagg] [presisjon] [bredde] [konverteringskarakter]
+		
+//printf er en metode som kan brikes til å vise tekst på en kontrollert og formatert måte i konsollvinduet
+// ved hjelp av en formatstreng som angir hvordan data skal vises		
+		// to argumenter	//formatstreng			//variabel
+		//System.out.printf("Dette er en format string %d",123);
+		
+		boolean myBoolean = true;
+		char myChar = '@';
+		String myString = "elias";
+		int myInt = 50;
+		System.out.printf("%b", myBoolean);
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int PI = Math.PI;
+		int r = 3;
+		System.out.println((4/3)* PI * Math.pow(r, 3));
+		
+		
+		}
+		
+	}
+
+

@@ -1,0 +1,18 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String brukernavn = showInputDialog("Brukernavn :");
+
+		String passord = showInputDialog("Passord :");
+
+		System.out.println(brukernavn);
+		System.out.println(passord);
+		
+		}
+		
+	}
+
+

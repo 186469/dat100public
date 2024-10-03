@@ -1,0 +1,15 @@
+
+public class MainPI20 {
+
+	public static void main(String[] args) {
+		
+		// final = gjør at variablen bare kan tildeles en verdi en gang, kan ikke endres.
+		
+		final double PI = 3.14159;
+		
+		
+		System.out.println(pi);
+
+	}
+
+}

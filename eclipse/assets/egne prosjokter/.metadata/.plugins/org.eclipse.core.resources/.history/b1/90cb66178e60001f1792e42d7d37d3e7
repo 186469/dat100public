@@ -1,0 +1,31 @@
+
+public class main10switches {
+
+	public static void main(String[] args) {
+
+		//Switch = et uttrykk som gjør det mulig å teste om 
+		//en variabel er lik en liste med verdier
+		
+		String day = "Fredag";
+		
+		switch(day) {
+			case "Søndag": System.out.println("Det er Søndag");
+			break; 
+			case "Mandag": System.out.println("Det er Mandag");
+			break;
+			case "Tirsdag": System.out.println("Det er Tirsdag");
+			break;
+			case "Onsdag": System.out.println("Det er Onsdag");
+			break;
+			case "Torsdag": System.out.println("Det er Torsdag");
+			break;
+			case "Fredag": System.out.println("Det er Fredag");
+			break;
+			case "Lørdag": System.out.println("Det er Lørdag");
+			break;
+			
+			
+		}
+	}
+
+}

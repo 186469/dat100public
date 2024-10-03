@@ -1,0 +1,16 @@
+
+public class main23LocalGlobal {
+
+	public static void main(String[] args) {
+		
+		// Local = Erklært inne i en metode
+		// synlig kun for den metoden
+		
+		// Global = Erklært utenfor en metode, men innenfor en klasse
+		// synlig for alle deler av en klasse
+		
+		TerningsKaster23 terningsKaster = new TerningsKaster23();
+		
+	}
+
+}

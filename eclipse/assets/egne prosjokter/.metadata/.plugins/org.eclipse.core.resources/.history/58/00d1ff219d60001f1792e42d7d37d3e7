@@ -1,0 +1,16 @@
+
+public class main15array {
+
+	public static void main(String[] args) {
+
+		// array = Brukes til å lagre flere verdier i en enkel variabel
+		
+		String[] cars = {"Camero, Corvette, Tesla"};
+		
+		cars[0] = "Mustang";
+		
+		System.out.println(cars[2]);
+		
+	}
+
+}

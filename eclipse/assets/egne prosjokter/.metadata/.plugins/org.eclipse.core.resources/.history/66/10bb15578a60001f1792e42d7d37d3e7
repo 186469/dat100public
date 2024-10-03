@@ -1,0 +1,21 @@
+
+public class main9if {
+
+	public static void main(String[] args) {
+
+		//if statemant = Utfører en blokk med 
+		//kode hvis betingelsen evalueres til å være sann
+		
+		int age = 17;
+		
+		if(age>=18) {
+			System.out.println("Du er voksen"); 
+		}
+		else {
+			System.out.println("Du er ikke voksen");
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class main12whileLoop {
+
+	public static void main(String[] args) {
+
+		// while loop = En while-løkke kjører en kodeblokk så lenge betingelsen forblir sann.
+		
+		Scanner scanner = new Scanner(System.in);
+		String name = "";
+		
+		while(name.isBlank()) {
+			System.out.println("Sett inn navnet ditt");
+			name = scanner.nextLine();
+		}
+		System.out.println("Hei "+name);
+		
+		 
+	}
+
+}

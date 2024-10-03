@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+
+public class main6 {
+
+	public static void main(String[] args) {
+		
+		String name = JOptionPane.showInputDialog("Skriv navnet ditt");
+		
+
+	}
+
+}

@@ -30,6 +30,8 @@ public class Main {
 //		skrivBokTabell(bTab);
 		visBilligereEnn(bTab, 240);
 	}
+	
+	
 
 	public static void skrivBokTabell(Bok[] tab) {
 		for (Bok e : tab) {

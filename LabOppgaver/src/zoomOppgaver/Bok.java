@@ -52,5 +52,6 @@ public class Bok {
 		System.out.println("Antall sider: " + antallSider);
 
 	}
+	 
 
 }
